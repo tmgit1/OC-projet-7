@@ -1,4 +1,3 @@
-# requirements
 absl-py==2.1.0
 aiobotocore @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a3od34vmjf/croot/aiobotocore_1682537315667/work
 aiofiles @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0ar7qj9rcj/croot/aiofiles_1683773588297/work
