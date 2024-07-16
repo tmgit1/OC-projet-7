@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.preprocessing import image
 
 # load model
-loaded_model = load_model('utils/efficient_net_v2_b0_120_classes.keras')
+loaded_model = load_model('projet_7/utils/efficient_net_v2_b0_120_classes.keras')
 
 # Define the class labels dictionary
 class_labels = {
