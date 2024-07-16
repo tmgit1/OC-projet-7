@@ -25,18 +25,18 @@ st.markdown("---")
 st.title("Exemple d'égalisation d'histogramme")
 
 # Liste de toutes les races dans le fichier "Images"
-breed_dirs = [d for d in os.listdir("subset_images") if os.path.isdir(os.path.join("subset_images", d))]
+breed_dirs = [d for d in os.listdir("projet_7/projet_7/subset_images") if os.path.isdir(os.path.join("projet_7/projet_7/subset_images", d))]
 
 # Dropdown menu pour sélectionner la race du chien
 selected_breed = st.selectbox("Sélectionnez une race de chien", breed_dirs)
 
 # Liste de toutes les images dans le fichier de la race sélectionnée
-image_files = [f for f in os.listdir(os.path.join("subset_images", selected_breed)) if f.endswith(".jpg")]
+image_files = [f for f in os.listdir(os.path.join("projet_7/projet_7/subset_images", selected_breed)) if f.endswith(".jpg")]
 
 # Sélection d'une image aléatoire dans la liste
 random_image_file = random.choice(image_files)
 
-image_path = os.path.join("subset_images", selected_breed, random_image_file)
+image_path = os.path.join("projet_7/projet_7/subset_images", selected_breed, random_image_file)
 image = Image.open(image_path)
 
 # Affichage de l'image
