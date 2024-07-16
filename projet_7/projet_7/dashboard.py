@@ -14,7 +14,7 @@ st.title("Analyse exploratoire des données du Stanford Dogs Dataset")
 
 # Affichage de l'image avec un titre
 st.markdown("## Exemples d'images du dataset")
-image_path = "projet_7/dashboard_eda_image_samples.png"
+image_path = "projet_7/projet_7/dashboard_eda_image_samples.png"
 image = Image.open(image_path)
 st.image(image, use_column_width=True)
 
