@@ -65,8 +65,8 @@ if st.button("Appliquer l'égalisation d'histogramme"):
 data = {
     "Model": ["MobileNetV1", "MobileNetV1", "EfficientNetV2B0", "EfficientNetV2B0"],
     "Epochs": [20, 40, 20, 40],
-    "Accuracy": [0.74, 0.75, 0.82, 0.81],
-    "Training Time (hours)": [3.16, 5.46, 4.21, 8.46]
+    "Accuracy": [0.74, 0.75, 0.81, 0.82],
+    "Training Time (hours)": [2.52, 5.43, 4.12, 8.56]
 }
 
 df = pd.DataFrame(data)
@@ -134,8 +134,8 @@ with col2:
 # Données pour le temps d'inférence
 data_inference = {
     "Model": ["MobileNetV1", "EfficientNetV2B0"],
-    "Total Inference Time (s)": [88, 115],  # en secondes
-    "Inference Time per Image (s)": [0.0366, 0.0536]
+    "Total Inference Time (s)": [109, 120],  # en secondes
+    "Inference Time per Image (s)": [0.0505, 0.0564]
 }
 
 df_inference = pd.DataFrame(data_inference)
