@@ -13,7 +13,6 @@ Mesurer les métriques suivantes pour chaque modèle :
 ```
 projet7
 └─── README.md  
-│
 └─── dashboard.py
 └─── dashboard_eda_images_samples.png
 └─── requirements.txt
@@ -64,9 +63,9 @@ MobileNetV1 a un temps d'inférence plus rapide qu'EfficientNetV2B0 mais les deu
 Le dashboard permet à l'utilisateur de télécharger une image d'un chien pour tester le modèle EfficientNetV2B0. Le modèle effectuera une prédiction et indiquera la race du chien.
 
 ## 📚 Technologies Utilisées
-Python : Langage principal du projet
-TensorFlow/Keras : Framework de deep learning utilisé pour entraîner et évaluer les modèles
-EfficientNetV2B0 & MobileNetV1 : Modèles de classification d'images
-Streamlit : Bibliothèque utilisée pour la création du tableau de bord interactif
-Pandas & NumPy : Manipulation et analyse de données
-Matplotlib & Seaborn : Visualisation des données et des résultats
+- Python : Langage principal du projet
+- TensorFlow/Keras : Framework de deep learning utilisé pour entraîner et évaluer les modèles
+- EfficientNetV2B0 & MobileNetV1 : Modèles de classification d'images
+- Streamlit : Bibliothèque utilisée pour la création du tableau de bord interactif
+- Pandas & NumPy : Manipulation et analyse de données
+- Matplotlib & Seaborn : Visualisation des données et des résultats
